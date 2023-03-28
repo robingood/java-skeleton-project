@@ -13,6 +13,7 @@ public class HelloController {
     @GetMapping(value = "/hello/{name}")
     @ResponseBody
     public String helloByName(@PathVariable String name) {
-        return "Hello " + name;
+        String name2 = name.concat("test");
+        return "Hello " + name2;
     }
 }
