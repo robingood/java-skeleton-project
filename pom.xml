@@ -18,7 +18,10 @@
         <!-- spring boot -->
         <spring.boot.version>2.7.6</spring.boot.version>
 
-        <!-- maven -->
+        <!-- other libraries -->
+        <commons.io.version>2.11.0</commons.io.version>
+
+        <!-- plugins -->
         <maven.compiler.plugin>3.8.1</maven.compiler.plugin>
         <maven.source.plugin>3.0.1</maven.source.plugin>
         <maven.dependency.plugin>3.1.2</maven.dependency.plugin>
@@ -45,6 +48,12 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>${org.slf4j.api.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${commons.io.version}</version>
         </dependency>
 
         <!-- +++ Testing +++ -->
