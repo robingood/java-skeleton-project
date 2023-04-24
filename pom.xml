@@ -20,7 +20,7 @@
 
         <!-- other libraries -->
         <commons.io.version>2.11.0</commons.io.version>
-
+        <org.projectlombok.lombok.version>1.18.24</org.projectlombok.lombok.version>
         <!-- plugins -->
         <maven.compiler.plugin>3.8.1</maven.compiler.plugin>
         <maven.source.plugin>3.0.1</maven.source.plugin>
@@ -41,6 +41,13 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
             <version>${spring.boot.version}</version>
+        </dependency>
+
+        <!-- Lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${org.projectlombok.lombok.version}</version>
         </dependency>
 
         <!-- +++ Logging +++ -->
